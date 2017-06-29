@@ -1,0 +1,17 @@
+data/CN/stopwords.txt filter=lfs diff=lfs merge=lfs -text
+data/CN/wiki_all.txt filter=lfs diff=lfs merge=lfs -text
+data/CN/wiki_quality.txt filter=lfs diff=lfs merge=lfs -text
+data/EN/DBLP.5K.txt filter=lfs diff=lfs merge=lfs -text
+data/EN/stopwords.txt filter=lfs diff=lfs merge=lfs -text
+data/ES/wiki_all.txt filter=lfs diff=lfs merge=lfs -text
+data/ES/wiki_quality.txt filter=lfs diff=lfs merge=lfs -text
+data/BAD_POS_TAGS.txt filter=lfs diff=lfs merge=lfs -text
+data/DBLP.txt filter=lfs diff=lfs merge=lfs -text
+data/EN/wiki_all.txt filter=lfs diff=lfs merge=lfs -text
+data/EN/wiki_quality.txt filter=lfs diff=lfs merge=lfs -text
+data/ES/stopwords.txt filter=lfs diff=lfs merge=lfs -text
+results/AutoPhrase.txt filter=lfs diff=lfs merge=lfs -text
+results/AutoPhrase_multi-words.txt filter=lfs diff=lfs merge=lfs -text
+results/AutoPhrase_single-word.txt filter=lfs diff=lfs merge=lfs -text
+results/segmentation.model filter=lfs diff=lfs merge=lfs -text
+results/segmentation.txt filter=lfs diff=lfs merge=lfs -text
