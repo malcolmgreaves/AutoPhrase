@@ -1,5 +1,7 @@
 SEGMENTATION_MODEL=results/segmentation.model
-TEXT_TO_SEG=data/EN/DBLP.5K.txt
+if [ -z "${TEXT_TO_SEG}" ]; then
+  TEXT_TO_SEG="data/EN/DBLP.5K.txt"
+fi
 HIGHLIGHT_MULTI=0.5
 HIGHLIGHT_SINGLE=0.8
 ENABLE_POS_TAGGING=1
@@ -28,6 +30,7 @@ CASE=tmp/case_tokenized_text_to_seg.txt
 TOKEN_MAPPING=tmp/token_mapping.txt
 
 echo -ne "Current step: Tokenizing input file...\033[0K\r"
+echo $TEXT_TO_SEG
 time java $TOKENIZER -m direct_test -i $TEXT_TO_SEG -o $TOKENIZED_TEXT_TO_SEG -t $TOKEN_MAPPING -c N -thread $THREAD
 
 LANGUAGE=`cat tmp/language.txt`
