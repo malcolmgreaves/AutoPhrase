@@ -1,4 +1,4 @@
-CXX = g++
+CXX = /usr/local/Cellar/gcc/7.1.0/bin/g++-7  
 CFLAGS = -std=c++11 -Wall -O3 -msse2  -fopenmp  -I..
 
 BIN = ./bin/segphrase_train ./bin/segphrase_segment
