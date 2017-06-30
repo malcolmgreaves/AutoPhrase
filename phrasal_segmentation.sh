@@ -1,7 +1,5 @@
 SEGMENTATION_MODEL=results/segmentation.model
-if [ -z "${TEXT_TO_SEG}" ]; then
-  TEXT_TO_SEG="data/EN/DBLP.5K.txt"
-fi
+TEXT_TO_SEG="${TEXT_TO_SEG:-data/EN/DBLP.5K.txt}"
 HIGHLIGHT_MULTI=0.5
 HIGHLIGHT_SINGLE=0.8
 ENABLE_POS_TAGGING=1
