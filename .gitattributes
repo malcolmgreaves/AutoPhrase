@@ -14,6 +14,5 @@ results/AutoPhrase.txt filter=lfs diff=lfs merge=lfs -text
 results/AutoPhrase_multi-words.txt filter=lfs diff=lfs merge=lfs -text
 results/AutoPhrase_single-word.txt filter=lfs diff=lfs merge=lfs -text
 results/segmentation.model filter=lfs diff=lfs merge=lfs -text
-results/segmentation.txt filter=lfs diff=lfs merge=lfs -text
 input/news_article_blue_apron.txt filter=lfs diff=lfs merge=lfs -text
 results/segmentation-news_article_blue_apron.txt filter=lfs diff=lfs merge=lfs -text
